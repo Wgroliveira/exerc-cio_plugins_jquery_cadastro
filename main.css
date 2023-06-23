@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color:silver;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: rgb(120, 36, 36);
+    padding-top: 16px;
+}
+    
+
+
+form{
+    padding:16px;
+    margin: 0 auto;
+}
+
+h1{
+    color: silver;
+    font-size: 96px;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav{ 
+    background-color: rgb(120, 36, 36);
+    color: silver;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+   
+a{
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: silver;
+    padding: 10px 20px;
+}
+a:hover {
+    color: red;
+    font-style: italic;
+    font-size: 1.5em;  
+}       
+
+
+li{
+    list-style: none;
+
+}
+
+label {
+    font-weight: bold;
+}
+   
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    background-color: ;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+   
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    color: silver;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-flex{
+        display: flex;
+    }
+
+    #sobre-a-loja img{
+        max-width: 400px;
+        margin-right: 24px;
+    }
+
+    section{
+       padding: 48px 0;
+    }
+
+    section h2{
+        margin-bottom: 16px;
+    }
+
+    section img{
+        max-height: 240px;
+    }
+
+    .lista-veiculos {
+        flex-wrap: wrap;
+    }
+
+    .lista-veiculos li{
+        list-style: none;
+        max-width: 30%;
+        margin-bottom: 24px;
+    }
+
+    .lista-veiculos li img{
+        max-width: 100%;
+    }
+
+    .lista-veiculos li h3{
+        margin: 16px 0;
+    }
+
+    .item-central{
+        margin: 0 5%;
+    }
+
+    footer{
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+        background-color: rgb(209, 61, 61);
+        padding-top: 16px;
+    }
+
+    footer li{
+        list-style: none;
+        margin-left: 16px;
+    }
+
+    footer li img{
+        height: 32px;
+    }
